@@ -5,7 +5,10 @@
 	<body>
 		Hello World
 		<script type="text/javascript">
-			window.location = "http://192.168.42.1:3000"; 
+			document.addEventListener("deviceready", onDeviceReady, false); 
+			function onDeviceReady() {
+				window.location="http://192.168.42.1:3000";
+			}
 		</script>
 	</body>
 </html>
