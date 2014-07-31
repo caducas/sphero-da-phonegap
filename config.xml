@@ -17,4 +17,6 @@
         Nikolaus Kofler
     </author>
 
+    <access origin="http://www.orf.at" subdomains="true" browserOnly="false" />
+
 </widget>
