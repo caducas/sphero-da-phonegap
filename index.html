@@ -1,14 +1,14 @@
 <html>
 	<head>
 		<title>Example app</title>
-	</head>
-	<body>
-		Hello World
 		<script type="text/javascript">
 			document.addEventListener("deviceready", onDeviceReady, false); 
 			function onDeviceReady() {
-				window.location="http://www.orf.at";
+				window.open('http://www.orf.at', '_blank', 'location=yes');
 			}
 		</script>
+	</head>
+	<body>
+		Hello World
 	</body>
 </html>
