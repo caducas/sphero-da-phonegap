@@ -3,10 +3,9 @@
 		<title>Example app</title>
 		<script src="phonegap.js"></script>
 		<script type="text/javascript">
-			document.addEventListener("deviceready", onDeviceReady, false); 
-			function onDeviceReady() {
-				window.open('http://www.orf.at', '_blank', 'location=yes');
-			}
+			document.addEventListener("deviceready", function(){
+			      alert("123");
+			 },true);
 		</script>
 	</head>
 	<body>
