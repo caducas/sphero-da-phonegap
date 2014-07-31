@@ -7,16 +7,16 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>PhoneGap Example to test PGB</name>
+        <name>PhoneGap Example to test PGB</name>
 
-    <description>
-        An example for phonegap build. 
-    </description>
+        <description>
+            An example for phonegap build. 
+        </description>
 
-    <author email="nikolaus@famkofler.com">
-        Nikolaus Kofler
-    </author>
+        <author email="nikolaus@famkofler.com">
+            Nikolaus Kofler
+        </author>
 
-    <access origin="http://www.orf.at" subdomains="true" browserOnly="false" />
+        <access origin="*" subdomains="true" browserOnly="false" />
 
-</widget>
+    </widget>
