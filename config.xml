@@ -19,7 +19,6 @@
 
         <access origin="http://www.orf.at" subdomains="true" browserOnly="false" />
         <access origin="http://192.168.42.1" subdomains="true" browserOnly="false" />
-        <preference name="orientation" value="landscape" />
         <preference name="Fullscreen" value="true" />
         <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
             <array>
