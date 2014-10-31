@@ -2,9 +2,9 @@
 	<head>
 		<title>Example app</title>
 		<script src="phonegap.js"></script>
+		<link rel="stylesheet" href="style.css">
 		<script type="text/javascript">
 			function onDeviceReady() {
-			      alert("123");
 			      // window.location="http://192.168.42.1:3000";
 			      window.location="http://10.0.0.189:3000"
 			}
@@ -13,6 +13,10 @@
 		</script>
 	</head>
 	<body>
-		Hello World 
+		<div class='mainInfo'>
+			<span>Anwendung wird gestartet ...</span>
+		</div>
+		<div class='loadingCircle'>
+		</div>
 	</body>
 </html>
